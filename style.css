@@ -71,6 +71,7 @@ main{
     height: 90vh;
     width: 100%;
 }
+
 #shop-now-card{
     position: absolute;
     height: 40%;
@@ -203,4 +204,76 @@ h2{
 }
 #copyright p{
     color: white;
+}
+
+
+
+
+
+
+@media (max-width: 740px){
+    
+#brand-name{
+    width: 50%;
+}
+#nav-tabs{
+    width: 50%;
+}
+
+#home{
+    height: 400px;
+}
+
+/* SECTION_1 */
+#shop-now-card{
+    height: 50%;
+    width: 80%;
+}
+#shop-now-card h1{
+    height: 50px;
+    font-size: 40px;
+}
+#shop-now-card p{
+    position: absolute;
+    top: 75px;
+}
+
+/* SECTION_2 */
+#cars{
+    height: 1400px;
+    justify-content: center;
+    gap: 25px;
+}
+
+#cars-card{
+    height: 1200px;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+    justify-content: space-around;
+}
+.cars-card{
+    height: 400px;
+    width: 500px;
+}
+.cars-card img{
+    height: 60%;
+    width: 450px;
+    top: 25px;
+    left: 25px;
+}
+
+/* SECTION_3 */
+#contact{
+    height: 700px;
+}
+#why-icons{
+    height: 70%;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+#copyright{
+    height: 10%;
+}
 }
