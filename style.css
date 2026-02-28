@@ -211,7 +211,7 @@ h2{
 
 
 
-@media (max-width: 740px){
+@media (max-width: 768px){
     
 #brand-name{
     width: 50%;
@@ -277,3 +277,4 @@ h2{
     height: 10%;
 }
 }
+
